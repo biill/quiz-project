@@ -46,9 +46,15 @@ function QuizPage({ params }: { params: { id: string } }) {
 
   const form = useForm();
 
-  const onSubmit = (answer: any) => {
-    console.log("Submitted answer:", answer);
-    return true;
+  const onSubmit = (answerId: any) => {
+    console.log("Submitted answer:", answerId);
+    // need check if answerId match with correctAnswer
+    if(Number(answerId)===sampleQuestion.correctAnswer){
+      // need have redux to hold count, and then if count ===5, no more questions
+      // when click submit, direct to result page.
+      // and count will be displayed in count page.
+    }
+    return ;
   };
 
   return (

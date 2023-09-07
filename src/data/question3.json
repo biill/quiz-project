@@ -1,0 +1,11 @@
+{
+    "id": 3,
+    "description": "testQuestion",
+    "answers" : [
+      {"id": 1, "detail": "detail1"},
+      {"id": 2, "detail": "detail2"},
+      {"id": 3, "detail": "detail3"},
+      {"id": 4, "detail": "detail4"}
+    ],
+    "correctAnswer": 1
+  }
